@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 
-export default function Home() {
+import Layout from "./../components/Layout";
+
+export default function HomePage() {
   return (
-    <div>
-      <h1>Hello from Home</h1>
-    </div>
+    <Layout>
+      <div className="flex gap-5 flex-wrap justify-around">Home</div>
+    </Layout>
   );
 }
